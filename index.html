@@ -1,13 +1,390 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>MY PORTFOLIO</title>
-    <link rel=""stylesheet" href=""style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <title> Ramandeep | Portfolio</title>
 </head>
 <body>
-    <h1>
-        HELLO WORLD! hehe
-    </h1>
-    <script src=""script.js"></script>
+ 
+  <nav>
+
+    <div class="logo">
+      Ramandeep
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#projects">Projects</a></li>
+       <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme-btn" id="themetoggle">
+      ⏾
+    </button>
+  </nav>
+  <div class="stars">
+    <span class="star">☆</span>
+    <span class="star">☆</span>
+    <span class="star">☆</span>
+    <span class="star">☆</span>
+    <span class="star">☆</span>
+    <span class="star">☆</span>
+    <span class="star">☆</span>
+    <span class="star">☆</span>
+    <span class="star">☆</span>
+  </div>
+  <section class="Home" id="Home">
+    <div class="Home-text">
+      <p class="intro">👋Hello! I'm</p>
+      <h1>Ramandeep Kaur Bhullar</h1>
+      <h2>BCA Student ~ Frontend and Backend learner</h2>
+
+      <p class="description">
+        Passionate about building websites, solving coding problems and learning UI/UX design one project at a time.
+      </p>
+      <div class="home-buttons">
+        <button class="primary-btn">Explore My Journey &#x2192; </button>
+        <button class="secondary-btn">Contact Me ✉</button>
+      </div>
+    </div>
+    <div class="home-right">
+      <div class="cat-container">
+        <img src="pixelcat.webp" alt="pixel cat" class="pixel-cat">
+        
+        <div class="speech" id="speech">Hi! I'm Bug 🐾</div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="about" id="about">
+    <div class="about-image">
+      <img src="aboutcat.webp" alt="about image">
+    </div>
+    <div class="about-content">
+      <p class="section-title">🌸 About Me</p>
+      <h2>Curious Developer & Creative Designer</h2>
+      <p>
+        Hi! I'm Ramandeep, a BCA student from Punjab who loves turning ideas
+        into interactive websites. I enjoy solving problems through code and
+        continuously challenge myself with leetcode. whether I'm designing a 
+        clean UI or building the logic behind it,I love creating things that
+        are both functional and beautiful.
+      
+      </p>
+      <div class="about-cards">
+        <div class="card">
+          <span>🎓</span>
+          <h3>Education</h3>
+          <p>BCA Student</p>
+        </div>
+         <div class="card">
+          <span>💻</span>
+          <h3>Learning</h3>
+          <p>Frontend ~ Backend ~ UI/UX</p>
+        </div>
+         <div class="card">
+          <span>🎨</span>
+          <h3>Interests</h3>
+          <p>Design & Coding </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="skills" id="skills">
+    <div class="skills-heading">
+      <div class="bug-header">
+        <img src="catt.webp" alt="bug" class="bug-backpack-cat">
+        
+        <div class="bug-message">
+          Welcome to Bug's Backpack!
+        </div>
+      </div>
+      <h2>Bug's Backpack</h2>
+      <p>Everything I've packed on my coding journey.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>💻 Languages</h3>
+        <div class="skill-tags">
+          <span>C++</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>🛠️ Developer Tools</h3>
+        <div class="skill-tags">
+          <span>Git</span>
+          <span>Github</span>
+          <span>VS Code</span>
+          <span>Figma</span>
+        </div>
+      </div>
+     
+      <div class="skill-card">
+        <h3>🚀 Currently exploring</h3>
+        <div class="skill-tags">
+          <span>Node.js</span>
+          <span>MongoDB</span>
+          <span>Python</span>
+          <span>UI/UX</span>
+        </div>
+      </div>
+       <div class="skill-card">
+        <h3>🧩 Fun Facts</h3>
+        <div class="fun-facts">
+          <div  class="fact">C++ is my fav language.</div>
+          <div  class="fact">I enjoy solving leetcode.</div>
+          <div  class="fact">currently learning Fullstack development.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="journey" id="journey">
+    <div class="journey-heading">
+      <h2>♡ My Journey ♡</h2>
+      <p>Every line of code taught me something new.</p>
+    </div>
+
+    <div class="journey-container">
+      <div class="journey-left">
+        
+        <div class="progress-log">
+          <h3>♡ Progress Log ♡</h3>
+          <div class="stat">
+            <span> Leetcode</span>
+            <strong>51</strong>
+          </div>
+          <div class="stat">
+            <span>Projects</span>
+            <strong>1</strong>
+          </div>
+          <div class="stat">
+            <span> Max streak</span>
+            <strong>15</strong>
+          </div>
+          <div class="stat">
+            <span> Current quest</span>
+            <strong>Learning design</strong>
+          </div>
+        </div>
+        <div class="cat-area">
+        <div class="cat-speech" id="cat-speech">
+          Solving bugs....probably:/
+        </div>
+        <img src="statscat.webp" alt="pixel cat" class="journey-cat">
+        </div>
+      </div>
+
+      <div class="journey-right">
+        <div class="journey-card">
+          <span class="year">2025</span>
+          <div class="journey-content">
+            <img src="hat.webp" alt="">
+            <div>
+              <h3>Started BCA</h3>
+              <p>Began my computer applications jouney.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="journey-card">
+          <span class="year">2025</span>
+          <div class="journey-content">
+            <img src="laptop.webp" alt="">
+            <div>
+              <h3>Learned C++</h3>
+              <p>Discovered problem solving and DSA.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="journey-card">
+          <span class="year">2026</span>
+          <div class="journey-content">
+            <img src="puzzle.webp" alt="">
+            <div>
+              <h3>Leetcode journey</h3>
+              <p>Started solving problems consistently.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="journey-card">
+          <span class="year">2026</span>
+          <div class="journey-content">
+            <img src="palette.webp" alt="">
+            <div>
+              <h3>UI/UX & Figma</h3>
+              <p>Fell in love with designing interfaces.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="journey-card">
+          <span class="year">2026</span>
+          <div class="journey-content">
+            <img src="folder.webp" alt="">
+            <div>
+              <h3>Built my Portfolio</h3>
+              <p>Created my own cozy pixel portfolio.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="journey-card">
+          <span class="year">Now</span>
+          <div class="journey-content">
+            <img src="rocket.webp" alt="">
+            <div>
+              <h3>Exploring FullStack</h3>
+              <p>Learning something new everyday.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="projects" id="projects">
+    <div class="section-title">
+      <h2>♡ Project Shelf ♡</h2>
+      <p>A Collectionof things I've built while learning and growning.</p>
+    </div>  
+
+    <div class="projects-container">
+      <div class="project-card featured">
+        <span class="featured-tag">Featured</span>
+        <img src="preview.webp" alt="portfolio">
+        
+        <div class="project-content">
+          <h3>Cozy pixel portfolio</h3>
+          <p>
+            A Personal portfolio inspired by cozy pixel aesthetics,designed
+            and developed from scratch to showcase my coding journey,skills and
+            creativity.
+          </p>
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="project-buttons">
+            <a href="#" class="live-btn" target="_blank">Live Demo</a>
+            <a href="https://github.com/rmnbhullar" class="github-btn" target="_blank">Github </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card coming-soon">
+        <div class="coming-icon">📦</div>
+        <h3>Project Slot #2</h3>
+        <p>Currently learning and building new projects. Stay tuned!</p>
+      </div>
+      <div class="project-card coming-soon">
+        <div class="coming-icon">📦</div>
+        <h3>Project Slot #3</h3>
+        <p>More ideas are on the way as I continue exploring full-stack development</p>
+      </div>
+    </div>
+
+    <div class="projects-footer">
+      <p> 🌱 This is just the beginning.
+        I'm constantly learning,building and turning ideas into
+        reality.
+      </p>
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <h2>♡ Let's connect♡</h2>
+      <p>I'm always open to learning, collaborating, or just having a chat.</p>
+    </div>
+    <div class="contact-container">
+      <div class="contact-left">
+        <img src="connect.webp" alt="pixel cat" class="contact-cat">
+        <div class="cat-bubble">
+          I'm usually online
+        </div>
+      </div>
+      <div class="contact-right">
+
+        <div class="contact-card">
+          <span>✉️</span>
+          <a href="mailto:Ramanbhullar1223@gmail.com">
+            Ramanbhullar1223@gmail.com
+          </a>
+        </div>
+
+        <div class="contact-card">
+          <span>💻</span>
+          <a href="https://github.com/rmnbhullar" target="_blank">
+            Github
+          </a>
+        </div>
+
+        <div class="contact-card">
+          <span>🧳</span>
+          <a href="https://linkedin.com/in/ramandeep-kaur-bhullar-1b3b43407" target="_blank">
+            Linkedin
+          </a>
+        </div>
+
+        <div class="contact-card">
+          <span>🧩</span>
+          <a href="https://leetcode.com/u/raman_bhullar" target="_blank">
+            Leetcode
+          </a>
+        </div>
+
+        
+      </div>
+      <div class="bugs-note">
+          <h3> Bug's Note</h3>
+          <p>
+            Thanks for stopping by!
+            <br><br>
+              
+            This portfolio is just the beginning of my journey.
+            I'll keep learning :)
+            <br><br>
+             If you'd like to connect or collaborate
+             I'd love to hear from you.
+          </p>
+          <span>~ yours Bug</span>
+      </div>
+
+      <div class="footer">
+        <p> Made with curiosity, cozy pixels & lots of debugging.</p>
+        <p> @ 2026 Ramandeep bhullar ~ Thanks for stopping by!</p>
+      </div>
+    </div>
+  </section>
+   <script src="script.js"></script>
 </body>
 </html>
